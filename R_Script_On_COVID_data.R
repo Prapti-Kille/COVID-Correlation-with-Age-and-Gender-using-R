@@ -34,7 +34,6 @@ mean(women$death_dummy, na.rm = TRUE)
 t.test(men$death_dummy, women$death_dummy, alternative="two.sided", conf.level = 0.99)
 
 ### 99% confidence: men have from 0.8% to 8.8% higher chance of dying
-### Since, p-value = 0.002 < 0.05, we can conclude the hypothesis to be true
 
 
 
